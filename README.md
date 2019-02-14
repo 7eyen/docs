@@ -2,4 +2,4 @@
 
 > An awesome project.
 
-![Alt Text](./11.gif)
+![Alt Text](11.gif)
