@@ -1,5 +1,5 @@
-# Headline11
+# 轮播图
 
-> An awesome project.
+> 轮播图操作方法
 
 ![Alt Text](11.gif)
