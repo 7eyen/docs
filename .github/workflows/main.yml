@@ -1,17 +1,18 @@
 name: deploy to ftp
 
 on:
- push:
-  paths-ignore: 
-    - '.github/**'
+  push:
+    paths-ignore: 
+    - '.github6/**'
 jobs:
- build:
-  runs-on: ubuntu-latest
+  build:
 
-  container: 
-    image: debian:stable-slim
+    runs-on: ubuntu-latest
 
-  steps:
+    container: 
+      image: debian:stable-slim
+
+    steps:
     - name: 初始化环境
       run: |
         apt-get update
